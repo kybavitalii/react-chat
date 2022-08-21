@@ -1,0 +1,7 @@
+.right-component {
+  display: flex;
+  flex-direction: column;
+  width: 67%;
+  height: 100vh;
+  background-color: rgb(255, 252, 160);
+}

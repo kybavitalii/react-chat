@@ -1,0 +1,7 @@
+.left-component {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  height: 100vh;
+  /* background-color: rgb(93, 166, 255); */
+}
