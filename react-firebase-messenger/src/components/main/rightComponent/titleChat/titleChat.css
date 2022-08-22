@@ -1,0 +1,15 @@
+.titleChat {
+  width: 100%;
+  height: 5em;
+  display: flex;
+  align-items: center;
+  background-color: rgb(235, 235, 235);
+  border-bottom: 1px solid lightslategray;
+}
+
+.titleChat__avatar {
+  width: 3em;
+  height: auto;
+  border-radius: 50%;
+  margin: 0 20px;
+}
