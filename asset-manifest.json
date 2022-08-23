@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/react-chat/react-firebase-messenger/static/css/main.444cd149.css",
-    "main.js": "/react-chat/react-firebase-messenger/static/js/main.1c34ae2b.js",
-    "static/media/josefina.jpg": "/react-chat/react-firebase-messenger/static/media/josefina.86a0bf8417aefb96c1b0.jpg",
-    "index.html": "/react-chat/react-firebase-messenger/index.html",
-    "main.444cd149.css.map": "/react-chat/react-firebase-messenger/static/css/main.444cd149.css.map",
-    "main.1c34ae2b.js.map": "/react-chat/react-firebase-messenger/static/js/main.1c34ae2b.js.map"
+    "main.css": "/react-chat/static/css/main.444cd149.css",
+    "main.js": "/react-chat/static/js/main.1c7f36fc.js",
+    "static/media/josefina.jpg": "/react-chat/static/media/josefina.86a0bf8417aefb96c1b0.jpg",
+    "index.html": "/react-chat/index.html",
+    "main.444cd149.css.map": "/react-chat/static/css/main.444cd149.css.map",
+    "main.1c7f36fc.js.map": "/react-chat/static/js/main.1c7f36fc.js.map"
   },
   "entrypoints": [
     "static/css/main.444cd149.css",
-    "static/js/main.1c34ae2b.js"
+    "static/js/main.1c7f36fc.js"
   ]
 }
