@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-chat/static/css/main.4e8c5e6c.css",
-    "main.js": "/react-chat/static/js/main.a651eab4.js",
+    "main.js": "/react-chat/static/js/main.c9323ca5.js",
     "static/media/josefina.jpg": "/react-chat/static/media/josefina.86a0bf8417aefb96c1b0.jpg",
     "index.html": "/react-chat/index.html",
     "main.4e8c5e6c.css.map": "/react-chat/static/css/main.4e8c5e6c.css.map",
-    "main.a651eab4.js.map": "/react-chat/static/js/main.a651eab4.js.map"
+    "main.c9323ca5.js.map": "/react-chat/static/js/main.c9323ca5.js.map"
   },
   "entrypoints": [
     "static/css/main.4e8c5e6c.css",
-    "static/js/main.a651eab4.js"
+    "static/js/main.c9323ca5.js"
   ]
 }
