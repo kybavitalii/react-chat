@@ -6,9 +6,8 @@ import { getAuth } from 'firebase/auth';
 import 'firebase/compat/firestore';
 import { initializeApp } from 'firebase/app';
 import firebaseConfig from './common/firebaseConfig';
-// import { getFirestore, collection, getDocs } from 'firebase/firestore/lite';
 import { getFirestore } from 'firebase/firestore/lite';
-import { store } from './store';
+import { store } from './store/store';
 import { Provider } from 'react-redux';
 import './index.css';
 
@@ -34,8 +33,8 @@ root.render(
       firestore,
     }}
   >
-    {/* <Provider store={store}> */}
-    <App />
-    {/* </Provider> */}
+    <Provider store={store}>
+      <App />
+    </Provider>
   </Context.Provider>
 );

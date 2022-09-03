@@ -1,9 +1,9 @@
 import React from 'react';
 import './titleChat.css';
-// import josefina from '../../../../images/josefina.jpg';
+import josefina from '../../../../images/josefina.jpg';
 
 const TitleChat = () => {
-  const SRC = 'src';
+  const SRC = josefina;
   const username = 'name';
   return (
     <div className="titleChat">

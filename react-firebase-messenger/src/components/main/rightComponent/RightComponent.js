@@ -1,7 +1,8 @@
 import React from 'react';
 import FooterChat from './footerChat/FooterChat';
-import './rightComponent.css';
 import TitleChat from './titleChat/TitleChat';
+import Chat from './chat/Chat';
+import './rightComponent.css';
 
 const RightComponent = () => {
   // const src = 'src';
@@ -9,6 +10,7 @@ const RightComponent = () => {
   return (
     <div className="right-component">
       <TitleChat />
+      <Chat />
       <FooterChat />
     </div>
   );

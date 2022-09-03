@@ -1,7 +1,7 @@
-// import { createSlice } from '@reduxjs/toolkit';
+import { createSlice } from '@reduxjs/toolkit';
 
-// const initialState = {
-//   value: [
+const initialState = {};
+//  { value: [
 // {
 //   user: 'Josefina',
 //   url: '',
@@ -17,26 +17,25 @@
 //     { msg: 'We are losing money! Quick!', date: '' },
 //   ],
 // },
-//   ],
-// };
+//   ],}
 
-// export const chatsSlice = createSlice({
-//   name: 'chats',
-//   initialState,
-//   reducers: {
-//     send: (state, msg) => {
-//       state.value[0].messages.push(msg);
-//     },
-// del: (state) => {
-//   state.value -= 1;
-// },
-// incrementByAmount: (state, action) => {
-//     state.value += action.payload
-//   },
-//   },
-// });
+export const chatsSlice = createSlice({
+  name: 'chats',
+  initialState,
+  reducers: {
+    send: (state, msg) => {
+      
+    },
+    del: (state) => {
+     
+    },
+    incrementByAmount: (state, action) => {
+   
+    },
+  },
+});
 
 // Action creators are generated for each case reducer function
-// export const { send } = chatsSlice.actions;
+export const { send } = chatsSlice.actions;
 
-// export default chatsSlice.reducer;
+export default chatsSlice.reducer;

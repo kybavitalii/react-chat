@@ -1,5 +1,5 @@
-export const LOGIN_ROUTE = '/login';
-export const CHAT_ROUTE = '/chat';
+export const LOGIN_ROUTE = 'react-chat/login';
+export const CHAT_ROUTE = 'react-chat/chat';
 export const INITIAL_MESSAGES = [
   {
     text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
