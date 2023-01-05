@@ -1,0 +1,29 @@
+.chats {
+  cursor: pointer;
+}
+
+.chats img {
+  cursor: pointer;
+  border-radius: 50%;
+  margin: 8px 10px 8px 15px;
+}
+
+.userChat {
+  display: flex;
+  transition: all 0.3s ease-in-out;
+}
+
+.userChat:hover {
+  cursor: pointer;
+  background-color: rgb(186, 186, 186);
+  /* color: white; */
+}
+
+.userChatInfo span {
+  display: inline-block;
+  margin: 0.5em 0 0.2em 0;
+  font-weight: bold;
+}
+
+/* .userChatInfo p {
+} */

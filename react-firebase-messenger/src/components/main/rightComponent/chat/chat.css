@@ -1,9 +1,9 @@
 .chat {
   width: 100%;
-  height: 100%;
+  height: calc(100% - 12em);
   padding: 0 15px;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   overflow-y: auto;
   background-color: rgb(255, 255, 255);
 }
@@ -12,4 +12,55 @@
   width: 100%;
   height: 100%;
   margin: auto auto;
+}
+
+.message {
+  position: relative;
+  width: 100%;
+  display: flex;
+  height: fit-content;
+  margin-top: 10px;
+}
+
+.right {
+  justify-content: flex-end;
+}
+
+.right .message-text {
+  background-color: rgb(191, 191, 191);
+  color: #424950;
+}
+
+.message-time,
+.message-time-right {
+  position: absolute;
+  font-size: 0.7em;
+}
+
+.message-time-right {
+  bottom: -14px;
+  right: 0;
+}
+
+.message-img {
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+.message-text {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  height: fit-content;
+  padding: 10px;
+  border: 1px solid #778899;
+  border-radius: 25px;
+  margin-top: 10px;
+  background-color: #2a3641;
+  color: #fff;
+}
+
+.message-time {
+  bottom: -10px;
+  left: 70px;
 }

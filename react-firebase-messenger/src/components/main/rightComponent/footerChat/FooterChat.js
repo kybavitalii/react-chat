@@ -3,19 +3,25 @@ import { Context } from '../../../../index';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import firebase from 'firebase/compat/app';
 import { useCollection } from 'react-firebase-hooks/firestore';
-import { collection, getDocs, addDoc, query, serverTimestamp } from 'firebase/firestore/lite';
+import {
+  collection,
+  getDocs,
+  addDoc,
+  query,
+  serverTimestamp,
+} from 'firebase/firestore/lite';
+import { auth, db } from '../../../../common/firebaseConfig';
 import './footerChat.css';
 
 const FooterChat = () => {
   const { useState } = React;
-  const { useContext } = React;
-  const { auth, firestore } = useContext(Context);
+  // const { useContext } = React;
+  // const { auth, firestore } = useContext(Context);
   const [user] = useAuthState(auth);
   const [value, setValue] = useState('');
 
   const sendMessage = async () => {
-     
-    const docRef = await addDoc(collection(firestore, 'messages'), {
+    const docRef = await addDoc(collection(db, 'messages'), {
       uid: user.uid,
       displayName: user.displayName,
       photoURL: user.photoURL,

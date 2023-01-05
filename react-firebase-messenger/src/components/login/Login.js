@@ -1,11 +1,12 @@
 import React from 'react';
 import { GoogleAuthProvider, signInWithPopup } from 'firebase/auth';
-import { Context } from '../../index';
+// import { Context } from '../../index';
+import { auth } from '../../common/firebaseConfig';
 import './login.css';
 
 const Login = () => {
-  const { useContext } = React;
-  const { auth } = useContext(Context);
+  // const { useContext } = React;
+  // const { auth } = useContext(Context);
   const provider = new GoogleAuthProvider();
 
   const login = () => {

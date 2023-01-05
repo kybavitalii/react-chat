@@ -1,10 +1,11 @@
 import React from 'react';
-import { Context } from '../../index';
+// import { Context } from '../../index';
+import { auth } from '../../common/firebaseConfig';
 import './header.css';
 
 const Header = (user) => {
-  const { useContext } = React;
-  const { auth } = useContext(Context);
+  // const { useContext } = React;
+  // const { auth } = useContext(Context);
   // console.log(user.user.user[0], user.user.user[1]);
   const src = user.user.user[1];
   return (
